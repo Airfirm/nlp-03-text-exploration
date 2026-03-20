@@ -20,8 +20,14 @@ authors:
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, USA"
 
-repository-code: "https://github.com/denisecase/nlp-03-text-exploration"
-url: "https://github.com/denisecase/nlp-03-text-exploration"
+author:
+  - family-names: Oluwafemi
+    given-names: Salawu.
+    orcid: "https://orcid.org/0000-0001-6165-7389"
+    affiliation: "Northwest Missouri State University, USA"
+
+repository-code: "https://github.com/Airfirm/nlp-03-text-exploration"
+url: "https://github.com/Airfirm/nlp-03-text-exploration"
 license: MIT
 
 abstract: |

@@ -38,14 +38,14 @@ These patterns support later pipelines, embeddings, and retrieval.
 
 You'll work with just these files as you update authorship and experiment:
 
-- **notebooks/nlp_corpus_explore_case.ipynb** - notebook version
-- **src/nlp/nlp_corpus_explore_case.py** - Python script
+- **notebooks/nlp_corpus_explore_femi.ipynb** - notebook version
+- **src/nlp/nlp_corpus_explore_femi.py** - Python script
 - **pyproject.toml** - project configuration and dependencies
 - **zensical.toml** - project metadata
 
 ## First: Follow These Instructions
 
-Follow the [step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/) to complete:
+Follow the [step-by-step workflow guide](https://airfirm.github.io/nlp-03-text-exploration/) to complete:
 
 1. Phase 1. **Start & Run**
 2. Phase 2. **Change Authorship**
@@ -97,7 +97,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-03-text-exploration
+git clone https://github.com/Airfirm/nlp-03-text-exploration
 cd nlp-03-text-exploration
 code .
 ```
@@ -121,11 +121,11 @@ uvx pre-commit run --all-files
 
 # First, run the module
 # IMPORTANT: Close each figure after viewing so execution continues
-uv run python -m nlp.nlp_corpus_explore_case
+uv run python -m nlp.nlp_corpus_explore_femi
 
 # Then, open the notebook.
 # IMPORTANT: Select the kernel and Run All:
-# notebooks/nlp_corpus_explore_case.ipynb
+# notebooks/nlp_corpus_explore_femi.ipynb
 
 uv run ruff format .
 uv run ruff check . --fix
